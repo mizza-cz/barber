@@ -1,0 +1,20 @@
+@mixin Vani400 {
+   font-family: "Vani", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   
+}
+@mixin Vani700 {
+   font-family: "Vani-Bold", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+@mixin f700 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-style: normal;
+}
+
+$brown: #985336;
+$black: #212121;
+$white: #c0c0c0;

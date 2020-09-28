@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>BarberShop</title>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/libs.min.css">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+
+   <header class="header" id="header">
+      <div class="header__top">
+         <div class="container">
+            <div class="header__top-inner">
+               <div class="header__logo">
+                  <a href="#">
+                     <img src="images/logo.png" alt="BarberShop">
+                  </a>
+               </div>
+               <div class="header__top-contact">
+                  <div class="header__top-box phone">
+
+                     <a href="tel:420773481912">+420-773-481-912</a>
+                     <a href="tel:420713666321">+420-713-666-321</a>
+                  </div>
+                  <div class="header__top-box map ">
+                     Slévárenská 437, 709 00 Ostrava-Mariánské Hory
+                  </div>
+                  <div class="header__top-box date">
+                     Pon - Pát
+                     9.00 - 18.00
+                  </div>
+               </div>
+               <div class="header__search">
+                  <form>
+                     <input class="search" type="text ">
+                     <button class="icon-search" type="submit"></button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="header__menu">
+         <div class="container">
+            <nav class="menu">
+               <div class="menu__btn">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+               </div>
+               <ul class="menu__list">
+                  <li class="menu__list-item"><a href="#">DOMŮ</a></li>
+                  <li class="menu__list-item"><a data-scroll="#about" href="#">O NÁS</a></li>
+                  <li class="menu__list-item"><a data-scroll="#services" href="#">SLUŽBY</a></li>
+                  <li class="menu__list-item"><a data-scroll="#personal" href="#">HOLIČI</a></li>
+                  <li class="menu__list-item"><a data-scroll="#appointment" href="#">rezervace</a></li>
+                  <li class="menu__list-item"><a data-scroll="#gallery" href="#">Galerie</a></li>
+                  <li class="menu__list-item"><a data-scroll="#price" href="#">CENÍK</a></li>
+                  <li class="menu__list-item"><a data-scroll="#footer" href="#">KONTAKT</a></li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </header>
+
+
+   <section class="main" style="background-image: url(images/header__slider/header__slider-1.jpg);">
+      <div class="container">
+         <div class="main__inner">
+            <div class="main__title">
+               Vítejte na stránkách
+               <span>barbershopu</span>
+            </div>
+            <a data-scroll="#appointment" href="#" class="main__btn">
+               Rezervovat termín
+            </a>
+         </div>
+      </div>
+   </section>
+
+
+
+
+   <section id="about" class="about">
+      <div class="container">
+         <div class="about__inner">
+            <div class="page-box">
+               <div class="page-title">
+                  O NÁS
+               </div>
+               <div class="page-img">
+                  <img src="images/mustache.png" alt="">
+               </div>
+               <div class="page-text">
+
+                  Pokud jste u nás nebyli, tak neváhejte a přijďte se k nám podívat, rádi Vás uvidíme a poskytneme naše
+                  služby. Pokud jste již u nás byli, tak se těšíme na Vaší další návštěvu.
+               </div>
+            </div>
+
+            <div class="about__content">
+               <div class="about__item">
+                  <div class="about__icon">
+                     <img src="images/about us/icon-1.png" alt="">
+                  </div>
+                  <div class="about__title">
+                     Ostrava №1 Barbershop
+                  </div>
+                  <div class="about__text">
+                     Naším cílem bylo vytvořit místo, kde je pohoda. Žádný stres, žádné nucené úsměvy. Místo, kde si
+                     dáte dobrou kávu, oblíbený alkohol, kde se dobře sedí a špatně odtud odchází.
+                  </div>
+               </div>
+               <div class="about__item">
+                  <div class="about__icon">
+                     <img src="images/about us/icon-2.png" alt="">
+                  </div>
+                  <div class="about__title">
+                     Zkušení holiči
+                  </div>
+                  <div class="about__text">
+                     Neustále se vzděláváme, jezdíme na školení, veletrhy a výstavy, abyste u nás vždy našli to
+                     nejlepší. Vaše spokojenost je pro nás nejdůležitější a uděláme pro ni všechno.
+                     Kromě moderních střihů, nabízíme také úpravu vousů, mytí a barvení vlasů či pleťové masky pro muže.
+                  </div>
+               </div>
+               <div class="about__item">
+                  <div class="about__icon">
+                     <img src="images/about us/icon-3.png" alt="">
+                  </div>
+                  <div class="about__title">
+                     Unikátní systém zaznamenání ůčesu
+                  </div>
+                  <div class="about__text">
+                     Pokud jste členem našeho klubu, PŘED a PO každém stříhání nafotíme Váš účes. Takže můžete svému
+                     holiči snadno ukázat, jak si účes od minule přejete upravit. Tento systém momentálně připravujeme a
+                     již brzy bude v provozu.
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- advantages start 3 -->
+   <section class="advantages" style="background-image: url(images/advantages-bg.jpg);">
+      <div class="container">
+         <div class="advantages__inner">
+            <div class="advantages__item"><span>2500</span>spokojených klientů</div>
+            <div class="advantages__item"><span>300</span>šálků na kávu</div>
+            <div class="advantages__item"><span>120</span>Holičů</div>
+            <div class="advantages__item"><span>30</span>Obchodů</div>
+         </div>
+      </div>
+   </section>
+   <!-- advantages end 3 -->
+   <section id="services" class="services" style="background-image: url(images/services/services-bg.jpg);">
+      <div class="container-fluid">
+         <div class="page-box">
+            <div class="page-title">
+               NAŠE SLUŽBY
+            </div>
+            <div class="page-img">
+               <img src="images/mustache.png" alt="">
+            </div>
+            <div class="page-text">
+               Každá služba obsahuje šálek kávy, sklenku výběrového alkoholu a karafu vody.
+               Služby střihu a úprav vousů je možné kombinovat.
+            </div>
+         </div>
+         <div class="services__inner">
+            <div class="services__inner--left">
+               <div class="services__item">
+
+                  <div class="services__info">
+                     <div class="services__item-title">PÁNSKÝ STŘIH</div>
+                     <div class="services__item-text">
+                        Ošetření pokožky před holením, napaření vousů horkým ručníkem, oholení tváře,studený ručník po
+                        holení, ošetření. Káva, whisy, rum nebo pivo.
+                     </div>
+                  </div>
+                  <div class="services__item-img">
+                     <img src="images/services/icon-1.png" alt="">
+                  </div>
+               </div>
+               <div class="services__item">
+
+                  <div class="services__info">
+                     <div class="services__item-title">HOLENÍ HLAVY</div>
+                     <div class="services__item-text">
+                        Holení hlavy břitvou, úprava obočí, mytí, opalování uší, masáž hlavy a balzám po holení, na
+                        závěr kolínská
+                     </div>
+                  </div>
+                  <div class="services__item-img">
+                     <img src="images/services/icon-2.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="services__inner--right">
+               <div class="services__item">
+                  <div class="services__item-img">
+                     <img src="images/services/icon-3.png" alt="">
+                  </div>
+                  <div class="services__info">
+                     <div class="services__item-title">ÚPRAVA VOUSŮ</div>
+                     <div class="services__item-text">
+                        Úprava vousů, zaholení kontur, ošetření po holení, úprava chloupků a obočí,opálení uší. Káva,
+                        whisky, rum nebo pivo.
+                     </div>
+                  </div>
+               </div>
+               <div class="services__item">
+                  <div class="services__item-img">
+                     <img src="images/services/icon-4.png" alt="">
+                  </div>
+                  <div class="services__info">
+                     <div class="services__item-title">Střih
+                        strojkem</div>
+                     <div class="services__item-text">
+                        Střih, zaholení kontur, úprava obočí, opálení chloupků na uších, mytí vlasů, vysušení + styling,
+                        na závěr kolínská.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- services end -->
+   <!-- appointment start  -->
+   <section id="appointment" class="appointment" style="background-image: url(images/appointment-bg.jpg);">
+      <div class="container">
+         <div class="page-box">
+            <div class="page-title">
+               Rezervace
+            </div>
+            <div class="page-img">
+               <img src="images/mustache.png" alt="">
+            </div>
+            <div class="page-text">
+               Online rezervace jsou automaticky potvrzovány a není potřeba proto provádět žádnou další akci. Po
+               vytvoření rezervace Vám přijde potvrzující e-mail se všemi údaji, které jste vyplnili. Zkontrolujte si
+               prosím pečlivě datum a čas, který v potvrzení je. Pokud jste se spletli, rezervaci je možno zrušit v
+               odkazu na mailu a rezervaci můžete vytvořit znovu správně.
+            </div>
+         </div>
+         <div class="appointment__inner">
+            <div class="appointment__form">
+               <form action="#" method="POST" enctype="multipart/form-data">
+                  <input type="text" name="name" placeholder="Name" required>
+                  <select id="#">
+                     <option value="services" disabled>SLUŽBY</option>
+                     <optgroup label="Man">
+                        <option value="Hair cut">Střih vlasů</option>
+                        <option value="Hair cut">Střih vlasů s mytím</option>
+                        <option value="Hair cut">Střih vlasů a holení</option>
+                        <option value="Hair cut">Střih dlouhých vlasů</option>
+                        <option value="Hair cut">Studenský střih ISIC</option>
+                        <option value="Hair cut">Klasické holení</option>
+                     </optgroup>
+                     <optgroup label="Woman">
+                        <option value="Hair cut">Střih vlasů</option>
+                        <option value="Hair cut">Střih vlasů s mytím</option>
+                        <option value="Hair cut">Střih dlouhých vlasů</option>
+                        <option value="Hair cut">Barvení vlasů</option>
+                        <option value="Hair cut">Studenský střih ISIC</option>
+                        <option value="Hair cut">Ženský kompletní servis</option>
+                     </optgroup>
+                  </select>
+                  <input type="tel" name="phone" placeholder="Phone">
+                  <select>
+                     <optgroup label="HOLIČI">
+                        <option value="holič">Pavel Kříž</option>
+                        <option value="holič">Dan Dvořák</option>
+                        <option value="holič">Honza Jelínek</option>
+                     </optgroup>
+                  </select>
+                  <input type="email" required placeholder="E-mail">
+                  <input class="date" type="date" placeholder="Date" required>
+                  <textarea name="message" placeholder="Message"></textarea>
+                  <button type="submit">Rezervovat termín</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- appointment end  -->
+
+   <!-- personal start 6 -->
+   <section id="personal" class="personal">
+      <div class="container">
+         <div class="personal__inner">
+            <div class="page-box">
+               <div class="page-title">
+                  NÁŠ TÝM
+               </div>
+               <div class="page-img">
+                  <img src="images/mustache.png" alt="">
+               </div>
+               <div class="page-text">
+                  Držíme spolu a dbáme na svou pověst. Nechceme jen dalšího zákazníka, chceme, aby ses k nám těšil jako
+                  na jídlo od maminky a pokecal jako s nejlepším kámošem.
+               </div>
+            </div>
+            <div class="personal__content">
+               <div class="personal__item">
+                  <a class="personal__item-img" href="#">
+                     <img src="images/personal/person-1.jpg" alt="">
+                  </a>
+                  <div class="personal__info">
+                     <a class="personal__item-name" href="#">
+                        Pavel Kříž
+                     </a>
+                     <div class="personal__item-rating">
+                        <div class="page-rating" data-rateyo-rating="3.5"></div>
+                     </div>
+                     <div class="personal__item-text">
+                        Tento komunikativní a progresivní mladý muž je vždy rád o krok dopředu. Jeho nejoblíbenější jsou
+                        změny účesů. Vyniká v diagnostice vlasů a technice střihu...
+                     </div>
+                  </div>
+
+               </div>
+
+               <div class="personal__item">
+                  <a class="personal__item-img" href="#">
+                     <img src="images/personal/person-2.jpg" alt="">
+                  </a>
+                  <div class="personal__info">
+                     <a class="personal__item-name" href="#">
+                        Dan Dvořák
+                     </a>
+                     <div class="personal__item-rating">
+                        <div class="page-rating" data-rateyo-rating="5"></div>
+                     </div>
+                     <div class="personal__item-text">
+                        Dan je Vaším rádcem, ochotně pomůže s výběrem parfémů, holicích potřeb či poradí tu nejlepší
+                        whisky z našeho baru! Má také pod palcem všechny rezervace. Je vyznavačem historie, účastní se
+                        dokonce historických bitev a celkově je to muž jako vystřižený z dob minulých. Tak se dejte do
+                        řeči, mnohé se dozvíte!
+                     </div>
+                  </div>
+
+               </div>
+
+               <div class="personal__item">
+                  <a class="personal__item-img" href="#">
+                     <img src="images/personal/person-3.jpg" alt="">
+                  </a>
+                  <div class="personal__info">
+                     <a class="personal__item-name" href="#">
+                        Honza Jelínek
+                     </a>
+                     <div class="personal__item-rating">
+                        <div class="page-rating" data-rateyo-rating="4"></div>
+                     </div>
+                     <div class="personal__item-text">
+                        Když se u Honzy posadíte do křesla, zázáří mu oči s vidinou Vaší lepší image. Navrhne Vám střih
+                        na míru, ukáže co změní a s obrovskou chutí se pustí do práce. Dle jeho slov je stříhání vlasů
+                        jeho koníčkem.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- personal end 6 -->
+
+   <!-- reviews start -->
+   <section class="reviews" style="background-image: url(images/reviews/reviews-bg.jpg);">
+      <div class="container">
+         <div class="page-box">
+            <div class="page-title">
+               naši klienti říkají
+            </div>
+            <div class="page-img">
+               <img src="images/mustache.png" alt="">
+            </div>
+            <div class="page-text">
+               Věříme na kvalitu a nevěříme na zbytečnosti. I proto jsme si otevřeli vlastní barbershop. Ať už
+               potřebujete vyladit účes nebo upravit vousy, od nás budete odcházet spokojení s výsledkem i s rozumnou
+               cenou. Celé to navíc proběhne v příjemném prostředí, v němž vás svěříme do rukou zkušeným holičům, kterým
+               budou při práci asistovat ty nejlepší přípravky na vousy i vlasy, které jsou tu k dostání.
+            </div>
+         </div>
+         <div class="reviews__inner">
+            <div class="reviews__box">
+               <div class="personal__item-rating">
+                  <div class="page-rating" data-rateyo-rating="3.5" data-rateyo-normal-fill='transparent'></div>
+               </div>
+               <p class="reviews__box-text">
+                  Příjemné a moderní holičství pro gentlemany. Jak již bývá zvykem, je možnost si dát něco dobrého k
+                  pití. O střih se momentálně stará zkušená slečna, takže podnik lze jedině doporučit.
+               </p>
+               <div class="reviews__box-img">
+                  <img src="images/reviews/reviews__user-1.jpg" alt="">
+               </div>
+               <div class="reviews__box-name"> Petr Babušák</div>
+            </div>
+            <div class="reviews__box">
+               <div class="personal__item-rating">
+                  <div class="page-rating" data-rateyo-rating="4" data-rateyo-normal-fill='transparent'></div>
+               </div>
+               <p class="reviews__box-text">
+                  100% spokojenost...super prostředí, profesionálně odvedená práce a skvěly přístup personálu...bude se
+                  rád vracet.
+               </p>
+               <div class="reviews__box-img">
+                  <img src="images/reviews/reviews__user-2.jpg" alt="">
+               </div>
+               <div class="reviews__box-name">Matěj Liška</div>
+            </div>
+            <div class="reviews__box">
+               <div class="personal__item-rating">
+                  <div class="page-rating" data-rateyo-rating="4.5" data-rateyo-normal-fill='transparent'></div>
+               </div>
+               <p class="reviews__box-text">
+                  Měl jsem tu čest včera vyzkoušet a musím říct jedním slovem TOP skvělé pánské prostředí, atmosféra a
+                  hlavně profík na svém místě se skvělým přístupem k zákazníkovi. Budu se vracet a těšit se na každé
+                  stříhání.
+               </p>
+               <div class="reviews__box-img">
+                  <img src="images/reviews/reviews__user-3.jpg" alt="">
+               </div>
+               <div class="reviews__box-name">Peter Onuščák</div>
+            </div>
+            <div class="reviews__box">
+               <div class="personal__item-rating">
+                  <div class="page-rating" data-rateyo-rating="5" data-rateyo-normal-fill='transparent'></div>
+               </div>
+               <p class="reviews__box-text">
+                  Dneska už druhá návštěva a opět maximální spokojenost! Žádné jiné kadeřnictví Vám nedá takový pocit.
+               </p>
+               <div class="reviews__box-img">
+                  <img src="images/reviews/reviews__user-4.jpg" alt="">
+               </div>
+               <div class="reviews__box-name">Dmitrij Tkačenko</div>
+            </div>
+            <div class="reviews__box">
+               <div class="personal__item-rating">
+                  <div class="page-rating" data-rateyo-rating="4" data-rateyo-normal-fill='transparent'></div>
+               </div>
+               <p class="reviews__box-text">
+                  "THE BEST BARBER SHOP I'VE BEEN TO WHILE TRAVELLING OVERSEAS FOR THE PAST 8 MONTHS! ARTY DID AN
+                  AMAZING JOB OF CUTTING AND STYLING MY HAIR, THE ATTENTION TO DETAIL WAS GREAT. 5 STAR SERVICE!!"
+                  – Dave Richards
+               </p>
+               <div class="reviews__box-img">
+                  <img src="images/reviews/reviews__user-5.jpg" alt="">
+               </div>
+               <div class="reviews__box-name">Dave Richards</div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- reviews end -->
+
+   <!-- gallery start 8 -->
+   <section id="gallery" class="gallery">
+      <div class="gallery__inner">
+         <div class="page-box">
+            <div class="page-title">
+               Galerie
+            </div>
+            <div class="page-img">
+               <img src="images/mustache.png" alt="">
+            </div>
+            <div class="page-text">
+               Rádi bychom Vás krátce uvedli do historie tohoto řemesla. Slovo ,,barber,, je odvozeno z latinského slova
+               Barba (holič). Barber shop, tedy pánské holičství potom z historického hlediska není pouze místo, kde se
+               Vám postarají o vlasy a vousy, ale zároveň je to místo svobodného vyjadřování, otevřených debat a slouží
+               jako sociální interakce.
+            </div>
+         </div>
+         <div class="gallery__list">
+            <div class="gallery__item"><img src="images/gallery/photo-1.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-2.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-3.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-4.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-5.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-6.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-7.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-8.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-9.jpg" alt=""></div>
+            <div class="gallery__item"><img src="images/gallery/photo-10.jpg" alt=""></div>
+         </div>
+      </div>
+   </section>
+   <!-- gallery end -->
+   <!-- pricing start 9 -->
+   <section id="price" class="price">
+      <div class="container">
+         <div class="price__inner">
+            <div class="page-box">
+               <div class="page-title">
+                  CENÍK
+               </div>
+               <div class="page-img">
+                  <img src="images/mustache.png" alt="">
+               </div>
+               <div class="page-text">
+                  Kromě klasických služeb jako – pánský střih, péče o vousy, vosková epilace atd. nabízíme speciální
+                  péči o obličej společně s holením ohněm podle tradic z blízkého východu a služba “domácí Barber” –
+                  provádí veškeré služby přímo u Vás doma.
+               </div>
+            </div>
+            <div class="price__content">
+               <div class="price__item price__item--man">
+                  <div class="price__title">
+                     MAN
+                  </div>
+                  <ul class="price__list">
+                     <li>Střih vlasů s mytím<span>450Kč</span></li>
+                     <li>Střih vlasů<span>350Kč</span></li>
+                     <li>Střih dlouhých vlasů<span>400Kč</span></li>
+                     <li>Holení s horkým ručníkem<span>500Kč</span></li>
+                     <li>Pánský kompletní servis<span>550Kč</span></li>
+                     <li>Studenský střih ISIC<span>300Kč</span></li>
+                  </ul>
+                  <a href="#" class="price__link">APPOINTMENT</a>
+               </div>
+
+               <div class="price__item price__item--woman">
+                  <div class="price__title">
+                     WOMAN
+                  </div>
+                  <ul class="price__list">
+                     <li>Střih vlasů<span>400Kč</span></li>
+                     <li>Střih vlasů s mytím<span>500Kč</span></li>
+                     <li>Střih dlouhých vlasů<span>450Kč</span></li>
+                     <li>Barvení vlasů<span>500Kč</span></li>
+                     <li>Ženský kompletní servis<span>600Kč</span></li>
+                     <li>Studenský střih ISIC<span>350Kč</span></li>
+                  </ul>
+                  <a href="#" class="price__link">APPOINTMENT</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- pricing end 9 -->
+
+
+   <footer id="footer" class="footer">
+
+      <div class="footer__content" style="background-image: url(images/footer-bg.jpg);">
+         <div class="container">
+            <div class="footer__inner">
+               <div class="footer__col footer__col-1">
+                  <div class="footer__col-title">
+                     Odebírat
+                  </div>
+                  <div class="footer__col-info">
+                     Budeme Vám zasílat samé dobré zprávy...
+                  </div>
+                  <div class="footer__form">
+                     <form>
+                        <input type="text" placeholder="Váš email">
+                        <button type="submit"></button>
+                     </form>
+                  </div>
+               </div>
+               <div class="footer__col footer__col-3">
+                  <div class="footer__col-title">
+                     OTEVÍRACÍ DOBA
+                  </div>
+                  <ul class="footer__list">
+                     <li>PONDĚLÍ<span>9.00 - 18.00</span></li>
+                     <li>ÚTERÝ<span>9.00 - 18.00</span></li>
+                     <li>STŘEDA<span>9.00 - 18.00</span></li>
+                     <li>ČTVRTEK<span>9.00 - 18.00</span></li>
+                     <li>PÁTEK<span>9.00 - 16.00</span></li>
+                     <li>SOBOTA<span>10.00 - 14.00</span></li>
+                     <li>NEDĚLE<span style="text-transform: none;">Zavřeno</span></li>
+                  </ul>
+               </div>
+               <div class="footer__col footer__col-2">
+                  <a class="footer__col-title" href="#">
+                     blog
+                  </a>
+                  <a class="footer__col-subtitle" href="#">Jak si vybrat štětku na holení</a>
+                  <div class="footer__col-text">
+                     K čemu je dobrá štětka na holení a jak ji vybrat? Štětka na holení slouží k rozdělání pěny, ať už…
+                  </div>
+                  <a class="footer__col-subtitle" href="#">Jak se dokonale postarat o knír</a>
+                  <div class="footer__col-text">
+                     I péče o knír má svá jasná pravidla. Proto se náš knírač Dan chopil příležitosti a o těch…
+                  </div>
+               </div>
+               <div class="footer__col footer__col-2">
+                  <div class="footer__col-title">
+                     instagram
+                  </div>
+                  <ul class="footer__col-instagram">
+                     <li><a class="instagram-dan" href="#"></a></li>
+                     <li><a class="instagram-blog" href="#"></a></li>
+                     <li><a class="instagram-pavel" href="#"></a></li>
+                     <li><a class="instagram-honza" href="#"></a></li>
+                     <li><a class="instagram-barbershop" href="#"></a></li>
+                     <li><a class="instagram-shop" href="#"></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer__copy">
+         <div class="container">
+            <div class="footer__copy-inner">
+               <div class="footer__copy-text">
+                  Copyright <span class="icon-copyright"></span> 2017 Barber. All rights reserved
+               </div>
+               <ul class="footer__copy-link">
+                  <li><a class="icon-google-plus" href="#"></a></li>
+                  <li><a class="icon-twitter" href="#"></a></li>
+                  <li><a class="icon-instagram" href="#"></a></li>
+                  <li><a class="icon-facebook" href="#"></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+   </footer>
+
+
+
+
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="js/libs.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+</html>
